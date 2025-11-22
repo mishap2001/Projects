@@ -13,3 +13,12 @@ It integrates common tools (binwalk, strings, foremost, bulk_extractor) and supp
 
 ## Usage
 Run the script as root and follow the interactive menu.
+
+## Integrity Verification (SHA-256)
+to verify that the script has not been altered compare the SHA-256 hash below with the hash of your downloaded version:
+**SHA-256**
+FE863A43B10F529D5089D0F0E01C0DCF2AB62555C783D72EB6E164C609D3B1BE
+
+You can verify using:
+get-filehash '.\Memory_&_Disk_Forensics_Analyzer.sh' -Algorithm sha256
+
